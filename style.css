@@ -56,20 +56,21 @@ body {
 .slideshow-button {
     position: absolute;
     z-index: 2;
-    background-color: rgba(255, 123, 123, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    font-size: 1rem;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.5);
     top: 90%;
     cursor: pointer;
     border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    left: 50%;
 
 }
 
 .prev {
-    left: 40%;
-    /* transform: rotate(180deg); */
+    transform: translate(-100%);
 }
 
-.next {
-    right: 40%;
-}
