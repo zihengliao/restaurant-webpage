@@ -10,13 +10,14 @@ things to try out:
 
 
 issues:
-	image resizing incorrectly when window changes shape
+	
 
 
 
 
 things to do for later:
 	media query for different window size (phones)
+	have the transition appear from sideways 
 
 
 
