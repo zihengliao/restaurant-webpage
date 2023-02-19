@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <script src = "slideshow.js" defer></script>
     <title>Document</title>
 </head>
@@ -21,19 +22,19 @@
             <!-- <div class = "img"> -->
                 <div class = "slideshow" data-slideshow>
 
-                    <button class="slideshow-button prev" data-slideshow-button = "prev"><</button>
-                    <button class="slideshow-button next" data-slideshow-button = "next">></button>
+                    <!-- <button class="slideshow-button prev" data-slideshow-button = "prev"><</button>
+                    <button class="slideshow-button next" data-slideshow-button = "next">></button> -->
     
     
                     <ul data-slides>
                         <li class = "slide" data-active>
+                            <img src="./photos/general_cc.avif" alt="Items">
+                        </li>
+                        <li class = "slide" >
                             <img src="./photos/11010453.webp" alt="Chicken on plate">
                         </li>
                         <li class = "slide" >
-                            <img src="./photos/general_cc.avif" alt="Chips">
-                        </li>
-                        <li class = "slide" >
-                            <img src="./photos/2021-08-30.jpg" alt="HSP">
+                            <img src="./photos/2021-08-30.jpg" alt="Shop">
                         </li>
     
                     </ul>
@@ -45,72 +46,146 @@
 
         <section class = "info">
             <div class = "lilydale-wrapper">
-                <img class = "lilydale-pic" src="./photos/lilydale.png" alt="Lilydale Free Range Chicken">
-
-                <div class = "txt">
-                    Made With Care 
-                </div>
-
-                <div class = "day-open">
-                    Mon-Sun
-                </div>
-                <div class = "open-time">
-                    11am - 9pm
-                </div>
-
-                <div class = "address-wrapper">
-                    <div class = "address">
-                        <p>
-                            Address:
-                        </p>
-                        <p class = "address-location">
-                            60 O'Sullivan Road Glen Waverley VIC 3150 Australia
-                        </p>
-                        <p>
-                            Contact:
-                        </p>
-                        <p>
-                            (03) 9887 8431
-                        </p>
-                    </div>
-                    <div class = "map">
-                        <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12596.855226962687!2d145.1654662!3d-37.8786823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63fb92a1ac7e9%3A0xc9e21f6d836f9583!2sGlen%20Waverley%20Charcoal%20Chicken!5e0!3m2!1sen!2sau!4v1676630560134!5m2!1sen!2sau" 
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class = "bg-img">
+                    <!-- <img class = "lilydale-pic" src="./photos/lilydale.png" alt="Lilydale Free Range Chicken"> -->
+                    <div class = "txt-wrap">
+                        <div class = "txt">
+                            Why did the chicken cross the road?
+                        </div>
+    
+                        <div class = "txt">
+                            To chick out charcoal chicken
+                        </div>
                     </div>
                     
+
+
+                    <div class = "openings">
+                        <div class = "day-open">
+                            <p>Mon: </p>
+                            <p>Tue: </p>
+                            <p>Wed: </p>
+                            <p>Thu: </p>
+                            <p>Fri: </p>
+                            <p>Sat: </p>
+                            <p>Sun: </p>
+                                                 
+                        </div>
+                        <div class = "open-time">
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            <p>11am - 9pm</p>
+                            
+                        </div>
+                    </div>
+
+                    
                 </div>
+                
+            </div>
+        </section>
+
+        <section class = "address-contact">
+            <div class = "address-wrapper">
+                <div class = "address">
+                    <p>
+                        Address:
+                    </p>
+                    <p class = "address-location">
+                        60 O'Sullivan Road Glen Waverley VIC 3150 Australia
+                    </p>
+                    <p>
+                        Contact:
+                    </p>
+                    <p>
+                        (03) 9887 8431
+                    </p>
+                </div>
+                <div class = "map">
+                    <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12596.855226962687!2d145.1654662!3d-37.8786823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad63fb92a1ac7e9%3A0xc9e21f6d836f9583!2sGlen%20Waverley%20Charcoal%20Chicken!5e0!3m2!1sen!2sau!4v1676630560134!5m2!1sen!2sau" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
             </div>
         </section>
 
         <section class = "reviews">
             <div class = "test-wrapper">
                 <div class = testimonial-txt>
-                    Testimonials
+                    What our customers say about us
                 </div>
                 <div class = "testimonials">
-                    <div class = "review">
-                        "Got a $10 quarter chicken combo, and got a box so full of chips I almost couldn't find my chicken. 
-                        And the chicken was great. It's a shame I won't visit Glen Waverley again otherwise I'll definitely come back."
+                    <div class = "star-rating">
+                        <div class = "stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <div class = "stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
+                        <div class = "stars">
+                            ⭐⭐⭐⭐⭐
+                        </div>
                     </div>
-                    <div class = review>
-                        "Nice place to grab a quick hot meal. The staff is very friendly, the service is quick and the taste is pretty good. 
-                        The burgers are our favourite. They are huge and are juicy. The focaccia roles are equally delicious. 
-                        The chips are always crispy and hot. The chicken is juicy, nicely flavoured and they give an additional piece on the house once in a while. 
-                        They are very generous with the fries as well. The freshly cooked noodles and rice is also pretty good. 
-                        The salads are fulfilling and pretty heavy. They have a decent selection on the drinks as well. 
-                        Also, there is parking available right in front of the store if you are lucky."
+                    <div class = "review-txt">
+                        <div class = "review-wrapper">
+                            <div class = "review">
+                                "Delicious food and super friendly staff! Portions are very generous. Ordering my HSPs here from now on!"
+                            </div>
+                            <div class = "names">
+                                - Steven
+                            </div>
+                        </div>
+                        
+
+                        <div class = "review-wrapper">
+                            <div class = review>
+                                "OMG, the best place to eat charcoal chicken and hsp. And it give lots of choices on menu, with many favorites."
+                            </div>
+                            <div class = "names">
+                                - Jackie Kuang
+                            </div>
+                        </div>
+                        
+
+
+                        <div class = "review-wrapper">
+                            <div class = "review">
+                                "If the world is ending tomorrow, I want my last meal to be a chicken schnitzel roll from here. I love you guys! God bless 🙏"
+                            </div>
+                            <div class = "names">
+                                - Kaioh Sato
+                            </div>
+                        </div>
+
+                        
                     </div>
-                    <div class = "review">
-                        "If the world is ending tomorrow, I want my last meal to be a chicken schnitzel roll from here. I love you guys! God bless 🙏"
-                    </div>
+                    
+                   
+
+
                 </div>
             </div>
         </section>
 
-        <section class = "contact">
-            <div>
-
+        <section class = "pictures">
+            <div class = "outer-pic-wrapper">
+                <div class = "picture-wrapper">
+                    <img src="./photos/chair.jpg" alt="chair">
+                    <img src="./photos/chips.webp" alt="chips">
+                    <img src="./photos/fried_rice.webp" alt="fried_rice">
+                    <img src="./photos/hsp.webp" alt="hsp">
+                    <img src="./photos/outside.jpg" alt="outside">
+                    <img src="./photos/salads.jpg" alt="salads">
+                    <img src="./photos/sandwich.webp" alt="sandwich">
+                    <img src="./photos/wings.webp" alt="wings">
+                    <img src="./photos/wrap.webp" alt="wrap">
+                </div>
             </div>
+            
         </section>
         
     </div>
