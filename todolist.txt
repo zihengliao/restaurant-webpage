@@ -2,8 +2,7 @@
 
 
 things to try out:
-	use getElementByName instead of querySelector when choosing the element button
-
+	
 
 
 
@@ -16,9 +15,8 @@ issues:
 
 
 things to do for later:
-	media query for different window size (phones)
 	have the transition appear from sideways 
-
+	have text pop up when scrolling
 
 
 questions:
